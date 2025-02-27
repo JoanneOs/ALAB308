@@ -18,7 +18,7 @@ console.log("areaStart = " + areaStart);
 let plantGrowth= areaStart;
 console.log("plantGrowth = " + plantGrowth);
 //Predict the plant growth after a specific number of weeks.
-let week=2;//can be changed
+let week=3;//can be changed
 // plantGrowth=plantGrowth*2*week;//not right
 /*if (week>0){plantGrowth=plantGrowth*2; week--;
 }
@@ -39,4 +39,5 @@ if (week==1){plantGrowth=plantGrowth*2;}//Double the plant count week 1
 else if(week==2){plantGrowth*2*2;}//Double the plant count week 2
 else if(week===3){plantGrowth=plantGrowth*2*2*2;}//Double the plant count week 3
 
-// th
+// the output 
+console.log("plantGrowth after  "+week+" weeks = "+plantGrowth)
