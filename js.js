@@ -50,3 +50,9 @@ if(plantGrowth>max80){console.log("Pruned, to stop them from exceeding the capac
 else if (plantGrowth>max50){console.log("Monitored, if they are growing at an acceptable rate.This condition should be met if the plant count is between 50% and 80% of the maximum capacity of the garden after the given number of weeks.")}
 else{console.log("Planted, if there is room to plant more plants.This condition should be met if the plant count after the given number of weeks is less than 50% of the maximum capacity of the garden.");}
 }catch(error){console.log(error);}
+
+//DONE, 
+//so my js code calculates the area of a cercular garden and uses it to determine plant growth based on a givien number of weeks. 
+//it checks whether the garden is overgrown, monitored or has space for more plants 
+//it compairs plantGrowth to the garden's capacity max, 
+//last thing we added try catch to handle error if needed.
