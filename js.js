@@ -48,3 +48,4 @@ let max80=0.8*max;
 let max50=0.5*max;
 if(plantGrowth>max80){console.log("Pruned, to stop them from exceeding the capacity of the garden.This condition should be met if the plant count after the given number of weeks is greater than 80% of the maximum capacity of the garden.");}
 else if (plantGrowth>max50){console.log("Monitored, if they are growing at an acceptable rate.This condition should be met if the plant count is between 50% and 80% of the maximum capacity of the garden after the given number of weeks.")}
+else{console.log("Planted, if there is room to plant more plants.This condition should be met if the plant count after the given number of weeks is less than 50% of the maximum capacity of the garden.");}
