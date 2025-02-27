@@ -35,4 +35,8 @@ console.log("plantGrowth after " + week + " weeks = "+ plantGrowth);
 
 // while(plantGrowth>2)plantGrowth=plantGrowth;
 
-for ()
+if (week==1){plantGrowth=plantGrowth*2;}//Double the plant count week 1
+else if(week==2){plantGrowth*2*2;}//Double the plant count week 2
+else if(week===3){plantGrowth=plantGrowth*2*2*2;}//Double the plant count week 3
+
+// th
