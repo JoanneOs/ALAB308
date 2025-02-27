@@ -2,7 +2,7 @@ console.log("hi");
 
 let radius = 5;
 const pi = 3.1415;
-const area = pi * radius;
+const area = pi * radius*radius;//calcualtin the area of gared, circle
 //output givings
 console.log("radius= " + radius);
 console.log("pi= " + pi);
@@ -18,19 +18,21 @@ console.log("areaStart = " + areaStart);
 let plantGrowth= areaStart;
 console.log("plantGrowth = " + plantGrowth);
 //Predict the plant growth after a specific number of weeks.
-let week=2;
-plantGrowth=plantGrowth*2*week;
+let week=2;//can be changed
+// plantGrowth=plantGrowth*2*week;//not right
 /*if (week>0){plantGrowth=plantGrowth*2; week--;
 }
 console.log("plantGrowth after " + week + " weeks = "+ plantGrowth);
 }*/
 
-if (plantGrowth>=80) {console.log("plantGrowth after " + week + "  weeks = "+ plantGrowth +" Pruned, to stop them from exceeding the capacity of the garden.");
+// if (plantGrowth>=80) {console.log("plantGrowth after " + week + "  weeks = "+ plantGrowth +" Pruned, to stop them from exceeding the capacity of the garden.");
     
-} else if (plantGrowth>=50) {console.log("plantGrowth after " + week + " weeks = "+ plantGrowth+ " Monitored, if they are growing at an acceptable rate. ");
+// } else if (plantGrowth>=50) {console.log("plantGrowth after " + week + " weeks = "+ plantGrowth+ " Monitored, if they are growing at an acceptable rate. ");
     
-} else {console.log("plantGrowth after " + week + " weeks = "+ plantGrowth+ " Planted, if there is room to plant more plants. ");
+// } else {console.log("plantGrowth after " + week + " weeks = "+ plantGrowth+ " Planted, if there is room to plant more plants. ");
     
-}
+// }
 
 // while(plantGrowth>2)plantGrowth=plantGrowth;
+
+for ()
