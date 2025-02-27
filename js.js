@@ -18,18 +18,17 @@ console.log("areaStart = " + areaStart);
 let plantGrowth= areaStart;
 console.log("plantGrowth = " + plantGrowth);
 //Predict the plant growth after a specific number of weeks.
-let week=3;
-
-if (week>0){plantGrowth=plantGrowth*2; week--;
+let week=1;
+plantGrowth=plantGrowth*2*week;
+/*if (week>0){plantGrowth=plantGrowth*2; week--;
 }
 console.log("plantGrowth after " + week + " weeks = "+ plantGrowth);
+}*/
 
-if (plantGrowth>=0.08) {console.log("plantGrowth after " + week + " weeks = "+ plantGrowth);
+if (plantGrowth>=0.08) {console.log("plantGrowth after " + week + "  weeks = "+ plantGrowth +" Pruned, to stop them from exceeding the capacity of the garden.");
     
-} else if (plantGrowth>=0.05) {console.log("plantGrowth after " + week + " weeks = "+ plantGrowth);
+} else if (plantGrowth>=0.05) {console.log("plantGrowth after " + week + " weeks = "+ plantGrowth+ " Monitored, if they are growing at an acceptable rate. ");
     
-} else {console.log("plantGrowth after " + week + " weeks = "+ plantGrowth);
-    
-}{
+} else {console.log("plantGrowth after " + week + " weeks = "+ plantGrowth+ " Planted, if there is room to plant more plants. ");
     
 }
