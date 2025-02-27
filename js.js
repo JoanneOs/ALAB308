@@ -41,3 +41,10 @@ else if(week===3){plantGrowth=plantGrowth*2*2*2;}//Double the plant count week 3
 
 // the output 
 console.log("plantGrowth after  "+week+" weeks = "+plantGrowth)
+
+//sugessting when >80%,50% pruned, monitored and when planted
+let max=area/plantSpace;
+let max80=0.8*max;
+let max50=0.5*max;
+if(plantGrowth>max80){console.log("Pruned, to stop them from exceeding the capacity of the garden.This condition should be met if the plant count after the given number of weeks is greater than 80% of the maximum capacity of the garden.");}
+else if (plantGrowth>max50){console.log("Monitored, if they are growing at an acceptable rate.This condition should be met if the plant count is between 50% and 80% of the maximum capacity of the garden after the given number of weeks.")}
