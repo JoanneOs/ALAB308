@@ -24,3 +24,12 @@ if (week>0){plantGrowth=plantGrowth*2; week--;
 }
 console.log("plantGrowth after " + week + " weeks = "+ plantGrowth);
 
+if (plantGrowth>=0.08) {console.log("plantGrowth after " + week + " weeks = "+ plantGrowth);
+    
+} else if (plantGrowth>=0.05) {console.log("plantGrowth after " + week + " weeks = "+ plantGrowth);
+    
+} else {console.log("plantGrowth after " + week + " weeks = "+ plantGrowth);
+    
+}{
+    
+}
