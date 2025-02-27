@@ -18,7 +18,7 @@ console.log("areaStart = " + areaStart);
 let plantGrowth= areaStart;
 console.log("plantGrowth = " + plantGrowth);
 //Predict the plant growth after a specific number of weeks.
-let week=3;//can be changed
+let week=-1;//can be changed
 // plantGrowth=plantGrowth*2*week;//not right
 /*if (week>0){plantGrowth=plantGrowth*2; week--;
 }
@@ -34,7 +34,7 @@ console.log("plantGrowth after " + week + " weeks = "+ plantGrowth);
 // }
 
 // while(plantGrowth>2)plantGrowth=plantGrowth;
-
+try{// adding try catch to entire if else statments
 if (week==1){plantGrowth=plantGrowth*2;}//Double the plant count week 1
 else if(week==2){plantGrowth*2*2;}//Double the plant count week 2
 else if(week===3){plantGrowth=plantGrowth*2*2*2;}//Double the plant count week 3
@@ -49,3 +49,4 @@ let max50=0.5*max;
 if(plantGrowth>max80){console.log("Pruned, to stop them from exceeding the capacity of the garden.This condition should be met if the plant count after the given number of weeks is greater than 80% of the maximum capacity of the garden.");}
 else if (plantGrowth>max50){console.log("Monitored, if they are growing at an acceptable rate.This condition should be met if the plant count is between 50% and 80% of the maximum capacity of the garden after the given number of weeks.")}
 else{console.log("Planted, if there is room to plant more plants.This condition should be met if the plant count after the given number of weeks is less than 50% of the maximum capacity of the garden.");}
+}catch(error){console.log(error);}
